@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Novell Services Login</h1>
+    <form>
+        <div>
+            <fieldset>
+                <legend>Registartion</legend>
+                <label for="username">Username: </label>
+                <input type="text" id="username"><br><br>
+                <label for="password">Password: </label>
+                <input type="text" id="password"><br><br>
+                <label for="city">City of </label>
+                <input type="text" id="city"><br><br>
+                <label for="employment">Employment: </label>
+                <input type="text" id="employment"><br><br>
+                <label for="webserver">Web server: </label>
+                <select id="webserver">
+                    <option value="chooseasever">--Choose a server</option>
+                </select><br><br>
+                <table>
+                    <tr>
+                        <td><label>Please specify<br>your role</label></td>
+                        <td>
+                            <input type="radio" name="radio">
+                            <label>Admin</label><br>
+                            <input type="radio" name="radio">
+                            <label>Engineer</label><br>
+                            <input type="radio" name="radio">
+                            <label>Manager</label><br>
+                            <input type="radio" name="radio">
+                            <label>Guest</label>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>Single Sign-on<br>to the following</td>
+                        <td>
+                            <input type="checkbox">
+                            <label>Mail</label><br>
+                            <input type="checkbox">
+                            <label>Payroll</label><br>
+                            <input type="checkbox">
+                            <label>Self-service</label>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Login">
+                <input type="reset" value="Reset">
+        </div>
+    </form>
+
+
+    </fieldset>
+
+</body>
+
+</html>
